@@ -1,4 +1,4 @@
-# provider로 AWS 사용
+# provider로 AWS 사용 
 provider "aws" {
   region = "ap-northeast-2" 
 }
