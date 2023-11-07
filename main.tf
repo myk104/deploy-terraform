@@ -356,6 +356,6 @@ resource "aws_instance" "keem-pri-db" {
   key_name = aws_key_pair.keem-key-pair.key_name # 사용할 키 페어 설정
 
   tags = {
-    Name = "keem-pri-db" # 인스턴스 이름 설정
+    Name = "keem-pri-db" # 인스턴스 이름 설정 
   }
 }
